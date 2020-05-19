@@ -4,6 +4,9 @@
   "description": "test for gedel dialog",
   "main": "src/index.js",
   "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production",
+    "buildTest": "webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kvisaz",
@@ -14,6 +17,7 @@
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.1",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
     "webpack": "^4.43.0",

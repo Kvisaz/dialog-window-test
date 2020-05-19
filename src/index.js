@@ -1,4 +1,10 @@
+import * as constants from 'gedel-dialog'
+
+// импорт работает через неиспользуемую константу - потому что у нас самописный модуль, не отвечающий стандартам
+
 console.log('Hello');
+console.log('constants ', constants);
+console.log('GedelDialog ', GedelDialog);
 
 GedelDialog.make({
     id: 'first-dialog',
