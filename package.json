@@ -1,0 +1,14 @@
+{
+  "name": "dialog-window-test",
+  "version": "0.0.5",
+  "description": "test for gedel dialog",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gedel-dialog": "0.0.5"
+  }
+}
