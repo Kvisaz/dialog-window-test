@@ -1,6 +1,8 @@
 import * as constants from 'gedel-dialog'
+import {IGedelDialog} from 'gedel-dialog/src/gedelDialog';
 
-declare var GedelDialog: any;
+// TODO как-то можно будет решить чтбы не объявлять каждый раз
+declare var GedelDialog: IGedelDialog;
 
 // импорт работает через неиспользуемую константу - потому что у нас самописный модуль, не отвечающий стандартам
 
