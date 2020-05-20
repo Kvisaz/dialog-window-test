@@ -12,7 +12,7 @@
   "author": "Kvisaz",
   "license": "ISC",
   "dependencies": {
-    "gedel-dialog": "0.0.53"
+    "gedel-dialog": "0.0.54"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",

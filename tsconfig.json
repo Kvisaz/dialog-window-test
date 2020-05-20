@@ -5,6 +5,7 @@
     "sourceMap": false
   },
   "include": [
-    "src"
+    "src",
+    "node_modules/gedel-dialog/src/gedelDialog/index.d.ts"
   ]
 }
